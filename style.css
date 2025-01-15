@@ -57,9 +57,14 @@ table {
 /*  GLOBAL STYLES*/
 body{
     display:grid;
+    grid-template-columns: 1fr;
 
 }
 /* MEDIA QUERY (medium) */
-
+@media screen and (min-width:941){
+    body{
+        grid-template-columns: 1fr 1fr;
+    }
+}
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
